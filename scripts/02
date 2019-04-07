@@ -1,0 +1,4 @@
+#!/bin/sh
+
+kill `ps -aux | grep $1 |  cut -d ' ' -f8`;
+deluser $1

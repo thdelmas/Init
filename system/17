@@ -1,0 +1,1 @@
+ssh thdelmas@$(hostname) -p 2230

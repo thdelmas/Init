@@ -1,0 +1,38 @@
+#!/bin/sh
+
+echo "PLUS OU MOINS"
+guess=($RANDOM + 1)
+essai=1
+path=$0
+read -p "Entre ton login : " login
+while [ $essai ]
+do
+	read -p "Entrez un nombre : " num
+	if [ $num -gt $guess ]
+	then
+		echo "C'est moins"
+	elif [ $num -lt $guess ]
+	then
+		echo "C'est plus"
+	else
+		break
+	fi
+	essai+=1
+done
+echo $guess
+echo "WELL DONE !!!"
+echo "$essai coups"
+echo "\n#$login : $essai coups" >> $path
+
+##
+####
+######
+
+# WECLOME LEADERBOARD
+
+######
+####
+##
+
+
+#thdelmas : 1 coups

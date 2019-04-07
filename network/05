@@ -1,0 +1,1 @@
+ping -c2 slash16.org | grep "(*)" | cut -d "(" -f2 | cut -d ")" -f1

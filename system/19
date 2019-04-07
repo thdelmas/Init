@@ -1,0 +1,15 @@
+avahi-daemon
+croncups-browsed
+hwclock.sh
+kmod
+procps
+saned
+udev
+console-setup.sh
+cups
+dbus
+keyboard-setup.sh
+networking
+rsyslog
+ssh
+x11-common
